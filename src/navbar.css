@@ -1,0 +1,46 @@
+.navbarForHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #17063d;
+    color: white;
+    width: 100%;
+    padding: 20px;
+   
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Brand or website name on the left */
+  .navbar-brand h2 {
+    margin: 0;
+  }
+  
+  /* Right side navbar links */
+  .navbar-links-home {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+
+  }
+  
+  /* Styling individual navbar items */
+  .navbar-item {
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar-item:hover {
+    background-color: #f4eeee;
+    text-decoration: none;
+    color: black;
+
+  }
+  

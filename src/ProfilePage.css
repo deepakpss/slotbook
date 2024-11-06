@@ -1,0 +1,80 @@
+/* General container */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('https://content.jdmagicbox.com/v2/comp/hyderabad/l3/040pxx40.xx40.180207174851.e5l3/catalogue/elite-sports-hub-hyderabad-d3v6g.jpg'); /* Replace with your image URL */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  /* Profile card */
+  .profile-card {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 800px; /* Increase the size of the card */
+    width: 100%;
+    text-align: center;
+    margin: 20px;
+    border: none;
+  }
+  
+  /* Profile header - grey top part */
+  .profile-header {
+    background-color: #f2f2f2; /* Light grey background */
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    border-bottom: 2px solid #e0e0e0;
+  }
+  
+  /* Profile image */
+  .profile-image {
+    width: 180px; /* Larger image size */
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #00aaff; /* Border for image */
+  }
+  
+  /* Profile details */
+  .profile-details {
+    text-align: left;
+  }
+  
+  .profile-details h2 {
+    margin: 0;
+    font-size: 28px; /* Increase font size */
+  }
+  
+  .profile-details p {
+    margin: 10px 0;
+    color: #666;
+    font-size: 18px;
+  }
+  
+  /* Profile stats */
+  .profile-stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: white; /* White background for the lower part */
+  }
+  
+  .stat h3 {
+    font-size: 32px; /* Bigger numbers */
+    margin: 0;
+    color: #00aaff;
+  }
+  
+  .stat p {
+    margin: 0;
+    font-size: 18px;
+    color: #666;
+  }
+  
